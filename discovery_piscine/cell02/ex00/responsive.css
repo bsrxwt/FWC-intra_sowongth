@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    background-image: url("https://pbs.twimg.com/media/G965-aTbYAAZRpp.jpg");
+}
+
+.img-2 {
+    background-image: url("https://i.pinimg.com/736x/06/72/7c/06727cdc3b14635e8f6dcda913c37a7d.jpg");
+}
+
+.black-block {
+    height: 60vh;
+    background-color: #111111;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

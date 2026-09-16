@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    background-color: white;
+    width: 320px;
+    border-collapse: collapse;
+    border: none; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-card th, .profile-card td {
+    border: none;
+}
+
+.card-header {
+    background-color: #00babc;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.card-image {
+    padding-top: 25px;
+}
+
+.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00babc;
+}
+
+.card-login h3 {
+    margin: 15px 0 5px 0;
+    color: #333333;
+}
+
+.card-desc {
+    color: #777777;
+    font-size: 0.95rem;
+    padding-bottom: 20px;
+}
+
+.card-socials {
+    padding-bottom: 20px;
+}
+
+.card-socials img {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+    transition: transform 0.2s; 
+}
+
+.card-socials img:hover {
+    transform: scale(1.15); 
+}
+.card-button {
+    padding-bottom: 30px;
+}
+
+.contact-btn {
+    background-color: #00babc;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #009395;
+}
